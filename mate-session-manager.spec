@@ -1,7 +1,7 @@
 Summary:	MATE session manager
 Name:		mate-session-manager
 Version:	1.8.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		X11/Applications
 Source0:	http://pub.mate-desktop.org/releases/1.8/%{name}-%{version}.tar.xz
@@ -16,10 +16,10 @@ BuildRequires:	pkg-config
 Requires(post,postun):	/usr/bin/gtk-update-icon-cache
 Requires(post,postun):	glib-gio-gsettings
 Requires(post,postun):	hicolor-icon-theme
-Requires:	mate-desktop
-Requires:	mate-file-manager
-Requires:	mate-panel
-Requires:	mate-window-manager
+Requires:	caja >= 1.8.0
+Requires:	marco >= 1.8.0
+Requires:	mate-desktop >= 1.8.0
+Requires:	mate-panel >= 1.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
