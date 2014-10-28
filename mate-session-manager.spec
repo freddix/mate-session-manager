@@ -1,7 +1,7 @@
 Summary:	MATE session manager
 Name:		mate-session-manager
 Version:	1.8.1
-Release:	2
+Release:	3
 License:	LGPL
 Group:		X11/Applications
 Source0:	http://pub.mate-desktop.org/releases/1.8/%{name}-%{version}.tar.xz
